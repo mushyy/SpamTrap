@@ -1,0 +1,9 @@
+services:
+  spamtrap:
+    hostname: "spamtrap"
+    build: '.'
+    healthcheck:
+      disable: true
+    volumes:
+      - "./:/app"
+    command: bash -c "poetry run python main.py config.yaml"

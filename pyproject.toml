@@ -1,0 +1,18 @@
+[project]
+name = "spam-trap"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mushyy",email = "DiscordSpam@isactually.gay"}
+]
+readme = "README.md"
+requires-python = "3.13.*"
+dependencies = [
+    "discord-py (>=2.6.2,<3.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

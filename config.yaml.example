@@ -1,0 +1,7 @@
+discord_token: "xxxx"
+channel_mappings:
+  - 123123123123123
+admins:
+  - 123123123123123
+  - 123123123123123
+notification_channel: 123123123123123
